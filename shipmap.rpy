@@ -112,13 +112,6 @@ screen deck0:
                     idle "Menu/cal_button.png"
                     hover "Menu/cal_button_hover.png"
                     activate_sound "Sound/click.mp3"
-            #if gly_location == "captainsloft":
-                #imagebutton:
-                    #xpos 560 ypos 435
-                    #action Jump(gly_event)
-                    #idle "Menu/gly_button.png"
-                    #hover "Menu/gly_button_hover.png"
-                    #activate_sound "Sound/click.mp3"
             if hasattr(store,'skirmish_enabled'):
                 if skirmish_enabled:
                     imagebutton:
